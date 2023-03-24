@@ -12,9 +12,9 @@ public class App implements Runnable{
     }
 
     public static void main(String[] args){
-        new App().run();
+        /*new App().run();
         //terminal.setFrameVisible();
-        mainPage.setFrameVisible();
+        mainPage.setFrameVisible();*/
     }
 
     public void run() {

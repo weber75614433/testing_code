@@ -11,7 +11,7 @@ import java.io.*;
 
 public class CmdExample {
     public static void main(String[] args) throws IOException {
-        TerminalBuilder builder = TerminalBuilder.builder();
+        /*TerminalBuilder builder = TerminalBuilder.builder();
         Terminal terminal = builder.build();
         LineReader reader = LineReaderBuilder.builder()
                 .terminal(terminal)
@@ -21,6 +21,6 @@ public class CmdExample {
         String line;
         while ((line = reader.readLine(prompt)) != null) {
             System.out.println("You entered: " + line);
-        }
+        }*/
     }
 }

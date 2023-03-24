@@ -12,7 +12,7 @@ import org.jline.terminal.TerminalBuilder;
 public class CommandLineExample {
     public static void main(String[] args) throws Exception {
         // Create a Terminal instance
-        Terminal terminal = TerminalBuilder.terminal();
+        /*Terminal terminal = TerminalBuilder.terminal();
 
         // Create a LineReader instance with candidate list completion
         LineReader reader = LineReaderBuilder.builder()
@@ -27,6 +27,6 @@ public class CommandLineExample {
         String line;
         while ((line = reader.readLine("> ")) != null) {
             System.out.println("You entered: " + line);
-        }
+        }*/
     }
 }
